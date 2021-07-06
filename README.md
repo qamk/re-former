@@ -14,7 +14,13 @@ The task was to understand how to create forms and use the submitted information
   - Using the controller to send an instance variable containing either:
     - An existing record (UserController#edit)
     - A new (unsaved) record (UserController#new)
-Some additional things I decided to do was to use a partial for the form, since it was used for both *edit* and *new* actions, adding the *show* controller action and adding links using the *link_to* helper method for better navigation.
+
+Some additional things I decided to do:
+- Use a partial for the form
+  - since it was used for both *edit* and *new* actions
+- Adding the *show* controller action
+- Adding links using the *link_to* helper method
+  - For better navigation.
 
 ## MVC
 Since it's simple, here's information about the Model, Views and Controller used:
